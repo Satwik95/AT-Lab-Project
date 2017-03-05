@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         AuthUI.GOOGLE_PROVIDER)
                 .build(),RC_SIGN_IN);
     }
+        setContentView(R.layout.activity_main);
         findViewById(R.id.button).setOnClickListener(this);
     }
     @Override
